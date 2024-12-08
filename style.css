@@ -1,0 +1,140 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #0077cc;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.4em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+p {
+    text-align: center;
+    color: #666;
+    font-size: 0.95em;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fdfdfd;
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+table th {
+    background-color: #f4f4f9;
+    color: #555;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    background-color: #0077cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #005fa3;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Form Inputs */
+input[type="text"], input[type="number"] {
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #0077cc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Table Container */
+.criterion-table {
+    margin-bottom: 15px;
+}
+
+/* Consistency Ratio */
+#consistencyRatio {
+    color: #0077cc;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Final Button Section */
+button:last-child {
+    margin-top: 10px;
+    background-color: #28a745;
+}
+
+button:last-child:hover {
+    background-color: #218838;
+}
